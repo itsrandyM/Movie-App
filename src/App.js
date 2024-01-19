@@ -4,7 +4,7 @@ import './App.css';
 import MovieCard from './MovieCard';
 
 //c99bf62e
-const API_URL = 'http://www.omdbapi.com/?apikey=c99bf62e'
+const API_URL = 'https://www.omdbapi.com/?apikey=c99bf62e'
 /*const movie = 
   {
       "Title": "Avengers: Endgame",
