@@ -18,7 +18,7 @@ body {
 }
 
 .app {
-  padding: 4rem;
+  padding: 1.5rem;
 
   display: flex;
   justify-content: center;
@@ -27,11 +27,11 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
-  letter-spacing: 0.9px;
+  font-size: 2.5rem;
+  letter-spacing: 0.7px;
   background: linear-gradient(
     90deg,
-    rgba(249, 211, 180, 1) 0%,
+    rgb(238, 60, 60) 0%,
     rgba(249, 211, 180, 0) 100%
   );
   background-clip: text;
@@ -41,27 +41,27 @@ h1 {
 }
 
 .search {
-  width: 71%;
-  margin: 4rem 0 2rem;
+  width: 60%;
+  margin: 2rem 0 0.5rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  padding: 1.5rem 1.75rem;
-  border-radius: 3rem;
+  padding: 0.8rem 1.15rem;
+  border-radius: 2rem;
   background: #1f2123;
   -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  box-shadow: 3px 3px 5px #1c1d1f, -3px -3px 5px #222527;
 }
 
 .search input {
   flex: 1;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: var(--font-raleway);
   font-weight: 500;
-  padding-right: 1rem;
+  padding-right: 0.5rem;
 
   outline: none;
   color: #a1a1a1;
@@ -69,9 +69,10 @@ h1 {
 }
 
 .search img {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
+  transform: scale(1.3);
 }
 
 /* .search button {
@@ -91,7 +92,7 @@ h1 {
 
 .empty {
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 2rem;
 
   display: flex;
   justify-content: center;
@@ -99,14 +100,14 @@ h1 {
 }
 
 .empty h2 {
-  font-size: 1.25rem;
-  color: #f9d3b4;
+  font-size: 1rem;
+  color: #fd5f5f;;
   font-family: var(--font-raleway);
 }
 
 .container {
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 2rem;
 
   display: flex;
   justify-content: center;
@@ -115,17 +116,17 @@ h1 {
 }
 
 .movie {
-  width: 310px;
-  height: 460px;
-  margin: 1.5rem;
+  width: 270px;
+  height: 390px;
+  margin: 1rem;
 
   position: relative;
-  border-radius: 12px;
+  border-radius: 11px;
   overflow: hidden;
   border: none;
 
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
-  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 6px -5px rgba(0, 0, 0, 0.1);
 }
 
 .movie div:nth-of-type(1) {
@@ -134,7 +135,7 @@ h1 {
   width: 100%;
   opacity: 0;
   top: 0;
-  color: #f9d3b4;
+  color: #fd5f5f;
 }
 
 .movie:hover {
@@ -154,7 +155,7 @@ h1 {
 
 .movie div:nth-of-type(3) {
   z-index: 2;
-  background-color: #343739;
+  background-color: #191e21;
   padding: 16px 24px 24px 24px;
 
   position: absolute;
@@ -175,7 +176,7 @@ h1 {
 .movie div:nth-of-type(3) h3 {
   margin-top: 5px;
   font-family: "Roboto Slab", serif;
-  color: #f9d3b4;
+  color: #fd5f5f;;
 }
 
 .movie:hover div:nth-of-type(2) {
